@@ -19,7 +19,11 @@
     "test:coverage": "nwb test-react --coverage",
     "test:watch": "nwb test-react --server"
   },
-  "dependencies": {},
+  "dependencies": {
+    "@emotion/core": "^10.0.28",
+    "@emotion/styled": "^10.0.27",
+    "react-canvas-draw": "^1.1.0"
+  },
   "peerDependencies": {
     "react": "16.x"
   },
