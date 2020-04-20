@@ -32,10 +32,10 @@
     "react": "^16.13.1",
     "react-dom": "^16.13.1"
   },
-  "author": "",
+  "author": "Maxence Dalmais - Maxired",
   "homepage": "",
   "license": "MIT",
-  "repository": "",
+  "repository": "github:maxired/react-easy-graphic",
   "keywords": [
     "react-component"
   ]
