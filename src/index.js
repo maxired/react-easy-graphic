@@ -4,8 +4,10 @@ import styled from '@emotion/styled'
 
 const Container = styled.div(({ width, height }) => ({
         position: 'relative',
-        width,
-        height,
+        maxWidth: width,
+        maxHeight: height,
+        width: '100%',
+        height: '100%',
         borderColor: '#222',
         borderWidth: 1,
         borderStyle: 'solid'
@@ -34,13 +36,13 @@ export default ({ width = 1280, height = 720 }) => {
 
     const canvasRef = useRef()
 
-    return <Container  width={width} height={height} >
+    return <Container width={width} height={height} >
     <CanvasDraw
         backgroundColor = 'white'
         brushRadius = { brushRadius }
         brushColor = {fullColor}
-        canvasHeight = { 720 }
-        canvasWidth = { 1280 }
+        canvasHeight = { '100%' }
+        canvasWidth = { '100%' }
         catenaryColor = '#222'
         hideGrid = { true }
         lazyRadius = { 3 }
